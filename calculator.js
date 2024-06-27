@@ -1,12 +1,14 @@
 'use strict'
-let display = document.getElementById("input")
-let operator = document.getElementsByClassName('operator')
+const display = document.getElementById("input");
+const outputDisplay = document.getElementById("outputDisplay");
 function clickToDisplay(input) {
     display.value += input
 }
 function clickToClearAll(){
-    display.value = ''
+    display.value = '';
+    outputDisplay.value = ''
 }
 function calculate(){
-    display.value = eval(display.value)
+    outputDisplay.value = eval(display.value);
+    display.value = 0
 }

@@ -6,22 +6,24 @@
 
 .container {
   margin: auto;
-  height: 498px;
+  /* height: 498px; */
   min-width: 318px;
-  max-width: 400px;
+  max-width: 318px;
   background-color: #26313E;
 }
 input::placeholder{color: white;}
-#input {
+#input, #outputDisplay {
   /* border: 1px solid black; */
   border: none;
   text-align: right;
   outline: none;
-  height: 193px;
+  padding: 5px 15px;
+  /* height: 193px; */
   width: 100%;
   font-size: 35px;
   color: white;
   background-color: #78909C;
+  overflow: visible;
 }
 
 .the-keys {

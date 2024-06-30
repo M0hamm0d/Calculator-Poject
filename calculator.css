@@ -11,6 +11,18 @@
   max-width: 318px;
   background-color: #26313E;
 }
+.input-in, .input-out {
+  border: none;
+  text-align: right;
+  outline: none;
+  padding: 2px 15px;
+  height: 43px;
+  width: 100%;
+  font-size: 35px;
+  color: white;
+  background-color: #78909C;
+  overflow: visible;
+}
 input::placeholder{color: white;}
 #input, #outputDisplay {
   /* border: 1px solid black; */

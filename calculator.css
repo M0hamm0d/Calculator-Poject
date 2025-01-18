@@ -13,16 +13,20 @@
 }
 .input-in, .input-out {
   border: none;
-  text-align: right;
+  /* display: flex;
+  justify-content: end; */
+  /* text-align: right; */
+  direction: rtl; 
   outline: none;
   padding: 2px 15px;
-  height: 43px;
+  min-height: 45px;
   width: 100%;
   font-size: 35px;
   color: white;
   background-color: #78909C;
-  overflow: visible;
-}
+  overflow-x: scroll;
+  scrollbar-width: none;
+};
 input::placeholder{color: white;}
 #input, #outputDisplay {
   /* border: 1px solid black; */
